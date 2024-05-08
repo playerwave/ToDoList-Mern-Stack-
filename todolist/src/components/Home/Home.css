@@ -1,0 +1,47 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lists {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  width: 330px;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+}
+
+.list p {
+  padding-left: 10px;
+}
+
+.checklist {
+  margin-right: 20px;
+}
+
+.line_through {
+  text-decoration: line-through;
+}
+
+.del {
+  display: flex;
+  justify-content: right;
+}
+
+.btn-del {
+  margin-top: 3px;
+  border: none;
+  border-radius: 20px;
+  height: 30px;
+  color: white;
+  background-color: red;
+}
